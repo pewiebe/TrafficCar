@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traffic Run</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="score">Pressione UP </div>
+
+<div id="controls">
+    <div id="buttons">
+        <button id="accelerate">
+            <svg width="30" height="30" viewBox="0 0 10 10">
+                <g transform="rotate(0, 5,5)">
+                    <path d="M5,4 L7,6 L3,6 L5,4" />
+                </g>
+            </svg>
+        </button>
+        <button id="decelerate">
+            <svg width="30" height="30" viewBox="0 0 10 10">
+                <g transform="rotate(180, 5,5)">
+                    <path d="M5,4 L7,6 L3,6 L5,4" />
+                </g>
+            </svg>
+        </button>
+    </div>
+    <div id="instructions">
+        Pressione UP para iniciar. Evite colisões com outros veículos acelerando
+        ou desacelerando com as teclas UP e DOWN.
+    </div>
+</div>
+
+<div id="results">
+    <div class="content">
+        <h1>Você bateu em outro veículo</h1>
+        <p>Para redefinir o jogo, pressione R</p>
+
+    </div>
+</div>
+
+<a id="youtube-main" class="youtube" target="_blank" href="https://youtu.be/JhgBwJn1bQw">
+    <span>Aprenda Three.js</span>
+</a>
+<div id="youtube-card">
+    Eu fiz isso do youtube
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
